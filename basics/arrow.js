@@ -23,3 +23,9 @@ const user = {
 user.welcomemessage()  //this call executes the func with first username
 user.username= "yuvi"  //we change the username
 user.welcomemessage()  //this call executes the func with changed username
+
+const addtwo = (num1, num2) => {return num1+num2} //if you use curly brackets, you have to use return
+console.log(addtwo(3,4));
+
+const addthree = (num3, num4) => (num3+num4) //no need of return if you use round brackets
+console.log(addthree(6,6));
