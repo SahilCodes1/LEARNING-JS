@@ -29,3 +29,19 @@ console.log(addtwo(3,4));
 
 const addthree = (num3, num4) => (num3+num4) //no need of return if you use round brackets
 console.log(addthree(6,6));
+
+//**************IIFE**************
+
+//immidiately invoked func
+/* this type of func is used to prevent the pollution of variables from global scope
+and to execute func immidiately*/
+
+(function chai(name){
+  console.log(`db connected to ${name}`);
+})("APPLE");
+
+// *********always use ; after first iife or else second wont get executed
+
+((name1)=>{
+  console.log(`db connected to ${name1}`);
+})("SAMSUNG")
