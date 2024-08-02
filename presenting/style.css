@@ -71,39 +71,40 @@ body { margin: 0;
     bottom: -150px;}
 
 .box-area li:nth-child(1){
-    left: 46%;
+    left: 26%;
     width: 80px;
     height: 80px;
-    animation-delay: 0s;
+    animation-delay: 2.5s;
     animation-duration: 15s;}    
 
 .box-area li:nth-child(2){
-      left: 15%;
-      width: 30;
-      height: 30;
-      animation-delay: 1.5s;
-      animation-duration: 10s;}
+    left: 15%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 1.5s;
+    animation-duration: 10s;}
+
 .box-area li:nth-child(3){
-        left: 65%;
-        width:55px;
-        height: 55px;
-        animation: delay 4s;
-        animation-duration: 15s;}
+   left: 65%;
+   width:55px;
+   height: 55px;
+   animation-delay: 4s;
+   animation-duration: 15s;}
         
 .box-area li:nth-child(4){
           left: 86% ;
-          width: 10px;
-          height: 10px;
-          animation: delay 0s;
-          animation-duration: 15s;}
+          width: 70px;
+          height: 70px;
+          animation-delay: 1s;
+          animation-duration: 10s;}
 
 .box-area li:nth-child(5){
-            left: 70%;
-            width: 25px;
-            height: 25px;
-            animation: delay 2.5s;
-            animation-duration: 10s;}
-
+   left: 64%;
+   width: 80px;
+   height: 80px;
+   animation-delay: 1s;
+   animation-duration: 15s;}
+            
 .box-area li:nth-child(6){
               left: 45%;
               width: 40px;
