@@ -1,0 +1,119 @@
+body { margin: 0; 
+    padding: 0;
+    background-color: black;}
+
+.wrapper{ position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;}
+
+.intro{ text-align: center;
+    color: azure;
+    font-family: "poppins", sans-serif;
+    font-size: 55px;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);}
+  
+.name{color: rgb(229 9 20);
+      font-weight: 800;}
+
+.description{text-align: center;
+    color: azure;
+    font: size 20px;
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);}
+
+    .banner-text {
+      width: 100%;
+      position: absolute;
+      z-index: 1;
+      font-family: "poppins", sans-serif;
+      font-weight: 500;
+    }
+    .banner-text ul {
+      height: 50px;
+      float: right;
+    }
+    .banner-text ul li {
+      display: inline-block;
+      padding: 40px 15px;
+      text-transform: uppercase;
+      color: rgb(229 9 20);
+      font-size: 20px;
+    }
+    .banner-text ul li:hover {
+      cursor: pointer;
+    }   
+ 
+.box-area{ position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;}    
+
+.box-area li{ position: absolute;
+    display: block;
+    height: 25px;
+    width: 25px;
+    list-style: none;
+    animation: animate 20s linear infinite;
+    background: rgb(229 9 20);
+    bottom: -150px;}
+
+.box-area li:nth-child(1){
+    left: 46%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+    animation-duration: 15s;}    
+
+.box-area li:nth-child(2){
+      left: 15%;
+      width: 30;
+      height: 30;
+      animation-delay: 1.5s;
+      animation-duration: 10s;}
+.box-area li:nth-child(3){
+        left: 65%;
+        width:55px;
+        height: 55px;
+        animation: delay 4s;
+        animation-duration: 15s;}
+        
+.box-area li:nth-child(4){
+          left: 86% ;
+          width: 10px;
+          height: 10px;
+          animation: delay 0s;
+          animation-duration: 15s;}
+
+.box-area li:nth-child(5){
+            left: 70%;
+            width: 25px;
+            height: 25px;
+            animation: delay 2.5s;
+            animation-duration: 10s;}
+
+.box-area li:nth-child(6){
+              left: 45%;
+              width: 40px;
+              height: 40px;
+              animation-delay: 1.5s;
+              animation-duration: 15s;}
+
+@keyframes animate{
+  0% {transform: translateY(0) rotate(0deg);
+     opacity: 0;}
+  100% {transform: translateY(-800px) rotate(360deg);
+      opacity: 1; }}
+
