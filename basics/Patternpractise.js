@@ -10,19 +10,23 @@ for (let j = n; j >=0; j--) {
     console.log(str.repeat(j));
 }
 
-/*for (let k = 1; k <= n; k++) 
-{   for (let l = 1; l<=k ; l++) {
-        let str="*";
-        process.stdout.write(str.repeat(l));}
-    for (let sp = 1; sp <= (n-k); sp++) {
-        let spstr="  ";
-        process.stdout.write(spstr.repeat(sp));}
+function pattern(){
+    
+for (let k = 1; k <= n; k++){
+    let row=("")
     for (let l = 1; l<=k ; l++) {
-        let str="*";
-        process.stdout.write(str.repeat(l));}
-    console.log("\n");
+        row+= "*";}
+    for (let sp = 1; sp <= (n-k); sp++) {
+        row+="  ";}
+    for (let l = 1; l<=k ; l++) {
+        row+= "*";
     }
-*/    
+    console.log(row);}
+
+}
+
+pattern()
+    
 
     
 
