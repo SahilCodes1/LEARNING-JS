@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="week">
+        <!--this is a comment -->
+        <!--this is my second comment--> 
+        <div class="day">monday</div>
+        <div class="day">tuesday</div>
+        <div class="day">wdnesday</div>
+        <div class="day">thursday</div>
+    </div>
+<script>
+    const week = document.querySelector('.week')
+    console.log(week.childNodes); //live nodelist of  div week where even comments and text is an element
+    const weeknodelist = (week.childNodes) 
+    console.log(weeknodelist[0]) //returns text (the enter in new line after <div class = "week">)
+    console.log(weeknodelist[1]) //returns the whole first comment
+    console.log(weeknodelist[2]) //returns text
+</script>
+</body>
+</html>

@@ -10,8 +10,7 @@ for (let i = 0; i <= 10; i++) {
 /***********FOR IN LOOP**********/
  let myobj = { fname:"sahil", lname:"shamnani", age:19}   
 for (const x in myobj) {  
-  console.log(`${x} : ${myobj[x]}`);
-  }
+  console.log(`${x} : ${myobj[x]}`);}
 
 
 
@@ -67,7 +66,7 @@ const addten = rnums.map((num)=>num+10)
 
 const priceToPay = shoppingCart.reduce((acc, item) => acc + item.price, 0)
 
-//console.log(priceToPay); //
+console.log(priceToPay); //22996
 
 
 
